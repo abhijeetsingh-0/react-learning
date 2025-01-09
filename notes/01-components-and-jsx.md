@@ -10,7 +10,7 @@ const element = <h1>Hello, World!</h1>;
 ```
 ## Key points:
 
-- JSX needs a single root element (can use a <div> or React.Fragment).
+- JSX needs a single root element (can use a 'div' or React.Fragment).
 - You can embed JavaScript expressions in JSX using {}.
 
 
