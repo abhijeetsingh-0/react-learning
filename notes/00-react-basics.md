@@ -123,11 +123,6 @@ const element = (
 </>
 ```
 
-### Component Naming
-- Use PascalCase: `UserProfile`
-- Be descriptive: `NavigationBar`
-- Avoid generic names: `Component`, `Page`
-
 ### Tools
 - Webpack: Bundles code
 - Babel: Transforms JSX

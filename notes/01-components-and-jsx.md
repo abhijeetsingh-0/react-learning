@@ -20,6 +20,11 @@ const element = <h1>Hello, World!</h1>;
 - Components are reusable building blocks of a React app.
 - They can be either functional or class-based.
 
+### Component Naming
+- Use PascalCase: `UserProfile`
+- Be descriptive: `NavigationBar`
+- Avoid generic names: `Component`, `Page`
+
 ## Class Components
 ```jsx
 // This is a class component
