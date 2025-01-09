@@ -1,17 +1,30 @@
-# JSX in React
-## What is JSX?
+## JSX (JavaScript XML)
 
 - JSX stands for JavaScript XML.
 - It allows you to write HTML-like code inside JavaScript.
 - JSX is compiled into JavaScript code by React.
 
 ```jsx
-const element = <h1>Hello, World!</h1>;
+// JSX Example
+const element = (
+  <div className="greeting">
+    <h1>Hello Abhijeet!</h1>
+  </div>
+);
 ```
 ## Key points:
 
 - JSX needs a single root element (can use a 'div' or React.Fragment).
 - You can embed JavaScript expressions in JSX using {}.
+
+### Fragments
+```jsx
+// Using Fragments
+<>
+  <ChildA />
+  <ChildB />
+</>
+```
 
 
 # Components and Their Types

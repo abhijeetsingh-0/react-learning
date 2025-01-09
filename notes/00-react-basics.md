@@ -103,25 +103,11 @@ npm install
 npm run dev
 ```
 
-## JSX (JavaScript XML)
 
-```jsx
-// JSX Example
-const element = (
-  <div className="greeting">
-    <h1>Hello Abhijeet!</h1>
-  </div>
-);
-```
 
-### Fragments
-```jsx
-// Using Fragments
-<>
-  <ChildA />
-  <ChildB />
-</>
-```
+
+
+
 
 ### Tools
 - Webpack: Bundles code
