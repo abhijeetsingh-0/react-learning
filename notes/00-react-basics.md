@@ -10,39 +10,6 @@ Why use React?
 - Easy learning curve for JavaScript developers
 
 
-## Components and Their Types
-
-### Class Components
-```jsx
-// This is a class component
-class MyComponent extends React.Component {
-  render() {
-    return <h1>Hello Abhijeet from Class Component!</h1>;
-  }
-}
-```
-- Written as a class with a render() method
-- Uses this.state and lifecycle methods
-- Uses this to access state and props
-- Slightly more overhead
-- Less used in modern React
-- Slightly harder to reuse due to class syntax
-
-### Function Components
-```jsx
-// This is a function component
-function MyComponent() {
-  return <h1>Hello Abhijeet from function component!</h1>;
-}
-```
-- Simpler syntax, written as a function
-- Uses React Hooks (useState, useEffect)
-- No this keyword
-- Slightly faster and simpler
-- Current recommended approach
-- Easier to reuse and test
-
-
 ## Single Page Applications (SPAs)
 
 ### SPAs vs Multi-Page Applications
