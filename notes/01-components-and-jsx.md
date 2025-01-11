@@ -7,8 +7,8 @@
 ```jsx
 // JSX Example
 const element = (
-
   const MyName = "Abhijeet"
+
   <div className="greeting">
     <h1>Hello {MyName}!</h1>
   </div>
@@ -65,7 +65,7 @@ function MyComponent() {
 ```
 - Simpler syntax, written as a function
 - Uses React Hooks (useState, useEffect)
-- No this keyword
+- No `this` keyword
 - Slightly faster and simpler
 - Current recommended approach
 - Easier to reuse and test
